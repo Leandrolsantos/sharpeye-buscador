@@ -4,12 +4,9 @@ body {
     flex-direction: column;
     align-items: stretch;
     margin: 0;
-}
-
-form {
-   display: flex;
-   flex-direction: column;
-   text-align: center; 
+    background: #f4f4f4 url("fundo.jpg") no-repeat  ;
+    background-size: cover;
+    font-family: 'Charmonman', cursive;
 }
 
 header img {
@@ -17,13 +14,28 @@ header img {
 }
 
 header h1  {
-    margin-top: 0 auto;
-    border:dotted;
-    border-color: black;
-    border-width: 10px;
-    padding: 5px 0 5px 0;
-    background-color: blue;
+    margin: -100px auto;
+    padding: 30px 0px 79px 0;
     font-weight: bold;
     font-size: 60px;
     color: white;
+    font-size: 110px;
 }
+
+header p {
+    font-size: 20px;
+}
+
+nav section li {
+    display: flex;
+    flex-direction: column;
+}
+
+li {
+    list-style: none;
+}
+
+.fundo {
+    width: 100%;
+    background-size: cover;
+  }
