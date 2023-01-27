@@ -23,27 +23,43 @@ header h1  {
 }
 
 header p {
-    font-size: 20px;
+    font-size: 25px;
     text-decoration: underline;
     color: white;
 }
 
 body div input {
-    width: 19%;
+    width: 25%;
 }
 
 .container {
-    background-color: white;
-    border: 3px solid red;
     padding: 15px;
-    display: grid;
-    grid-template-rows: 50px auto 10%;     
+    display: flex;
+    flex-wrap: wrap;
+    grid-template-columns: 550px auto 55%;
+    justify-content: center;
+    text-decoration: dashed;
+    color: black;
+}   
+
+
+.item {
+    margin: 0 0 0 0;
+    padding: 20px;
+    transition: 1.2s;
 }
 
-.container div {
-    background-color: #CCC;
-    padding: 20px;
-    border: 1px solid blue;
+.item a:link {
+    text-decoration: none;
+    color: white;
+}
+
+.item a:visited {
+    color: white;
+}
+
+.item:hover {
+    transform: scale(1.2);
 }
 
 .fundo {
