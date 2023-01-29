@@ -28,6 +28,7 @@ header h1  {
 
 h1 {
     max-width: 480px;
+    text-shadow: 0.1em 0.1em 0.2em black;
     
   }
 
@@ -52,6 +53,7 @@ header p {
     font-size: 23.5px;
     text-decoration: underline;
     color: white;
+    color: white; text-shadow: black 0.1em 0.1em 0.2em;
     -webkit-text-stroke-width: 0.4px;
     -webkit-text-stroke-color: rgb(130, 127, 127);
 }
@@ -74,6 +76,7 @@ body div input {
     font-weight: bold;
     padding: 20px;
     transition: 1.2s;
+    color: white; text-shadow: black 0.1em 0.1em 0.2em;
 }
 
 .item a:link {
