@@ -32,13 +32,13 @@ h1 {
     
   }
 
-  h1::after {
+h1::after {
     content: '';
     opacity: 1;
     margin-left: 5px;
     display: flex;
     animation: blink .7s infinite;
-  }
+}
 
   @keyframes blink {
     0%, 100% {
@@ -111,28 +111,6 @@ footer {
     -webkit-text-stroke-width: 0.5px;
     -webkit-text-stroke-color: #000;
     color: white; text-shadow: black 0.1em 0.1em 0.2em
-  }
-
-  @media screen and (max-width: 480px) {
-    .item, .item a:link, .item a:visited, .item:hover, .fundo, .oculos, .oculos:hover, .wrapper, {
-		width: auto;
-    }
-
-    body {
-        width: auto;
-    }
-
-	h1 {
-		text-align: center;
-	}
-
-	nav {
-		position: static;
-	}
-
-  footer {
-    width: auto;
-  }
 }
 
 /*Grid - Óculos - Imagens*/
@@ -155,4 +133,39 @@ footer {
     grid-auto-rows: 180px;
     align-content: space-between;
     align-items: center; 
+}
+
+@media screen and (max-width: 480px) {
+    .item, .item a:visited, .item a:link, .item:hover, .fundo, .oculos, .container, .oculos:hover, .wrapper {
+		width: auto;
+    }
+
+   body {
+        display: flex;
+        justify-content: center;
+   }
+   
+    body div input {
+        width: auto;
+    }
+
+    header img {
+        width: auto;
+    }
+
+	header h1 {
+		display: flex;
+	}
+
+    header p {
+        text-align: center;
+    }
+
+	nav {
+		position: relative;
+	}
+
+  footer {
+    width: auto;
+  }
 }
