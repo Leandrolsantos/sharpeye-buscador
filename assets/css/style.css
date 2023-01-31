@@ -22,7 +22,7 @@ header img {
   img {
     opacity: 0;
     animation: fade-in 3.5s normal forwards ease-in-out;
-    animation-play-state: paused
+    animation-play-state: paused;
   }
   
   body.loaded img {
@@ -171,16 +171,26 @@ footer {
     align-items: center; 
 }
 
+//* Mobile *//
+
 @media screen and (min-width: 480px) {
-    .item, .fundo, .oculos, .container, .wrapper {
-		width: auto;
-    }
+    .item, .fundo, .oculos, .container {
+    width: auto;
+    orientation: portrait;  
+}
    
-    body {
-        width: auto;
+  body {
+      width: auto;
+      orientation: portrait;
    }
 
-  footer {
+   .wrapper {
+    display: flex;
+    width: 100%;
+    orientation: portrait;
+  }
+  .footer {
     width: auto;
+    orientation: portrait;
   }
 }

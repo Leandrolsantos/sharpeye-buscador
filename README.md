@@ -1,5 +1,8 @@
 # Sharpeye - Buscador de Óculos na Internet
-Site de busca por preços de óculos e acessórios na internet.
+<img src="http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&style=for-the-badge"/>
+</p>
+
+![](./assets/img/sharpeye.gif)
 ## Descrição
 É um buscador que encontra na internet as opções de óticas que fornecem venda de óculos tanto de grau quanto óculos de sol e seus acessórios na internet.
 ## Desafios
